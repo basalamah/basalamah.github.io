@@ -1,0 +1,180 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
+/* @import url(http://fonts.googleapis.com/earlyaccess/lateef.css);
+ * @import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css); */
+
+
+
+
+
+/* This controls the blog title */
+body > header {
+    float: right;
+    border-right: 0px;
+    border-left: 4px solid #000;
+    font-weight: normal;
+    @media only screen and (min-width: 320px) {
+        font-size: 0.70em;
+        line-height: 4.3em;
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+    @media only screen and (min-width: 550px) {
+        font-size: 1.20em;
+        line-height: 1.4em;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+}
+
+
+/* This controls the navigation elements */
+body > nav {
+    padding-bottom: 2em;
+    padding-left: 0px;
+    padding-right: 0px;
+    ul {
+        float: right;
+        margin-right: 1em;
+        direction: rtl;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 18px;
+        @media only screen and (max-width: 550px) {
+            margin-right: 10px;
+            margin-top: 14px;
+        }
+        a {
+            font-family: $article-header-font;
+
+            @media only screen and (min-width: 320px) {
+                font-family: Arial;
+                width: 143px;
+                font-size: 18px;
+                font-weight: bold; 
+            }
+            @media only screen and (min-width: 550px) {
+                font-family: $article-header-font;
+                width: 210px;
+                font-size: 24px;
+                font-weight: normal;
+
+            }
+        }
+    }
+}
+
+/* article settings */
+article {
+    footer p.nav a { color: #888; }
+    header p.meta { font-size: 14px; }
+    p {
+        @media only screen and (min-width: 320px) {
+            font-size: 16px;
+        }
+        @media only screen and (min-width: 550px) {
+            font-size: 18px;
+        }
+        @media only screen and (min-width: 800px) {
+            font-size: 18px;
+            font-weight: normal;
+        }
+    }
+    h1 {
+        font-family: $article-header-font;
+        font-weight: normal;
+        @media only screen and (min-width: 320px) {
+            font-size: 30px;
+        }
+        @media only screen and (min-width: 550px) {
+            font-size: 40px;
+        }
+    }
+    h2 {
+        font-family: $article-header-font;
+        font-weight: normal;
+        margin-bottom: 0.4em;
+        @media only screen and (min-width: 320px) {
+            font-size: 25px;
+        }
+        @media only screen and (min-width: 550px) {
+            font-size: 35px;
+        }
+        a, a:visited {
+            color: black
+        }
+    }
+    h4 {
+        margin-bottom: 0.4em;
+    }
+    header {
+        font-weight: bold;
+        margin-bottom: 1.5em;
+    }
+    .footnotes > ol > li > p {
+        font-size: 15px;
+    }
+}
+
+
+
+/* This controls the list elements */
+body > nav ul li {
+    direction: rtl;
+    padding-bottom: 2em;
+}
+
+/* This controls the blog contents */
+.no-sidebar #content {
+    direction: rtl;
+}
+
+body > footer {
+    margin-bottom: 1em;
+    direction: rtl;
+    
+}
+
+
+blockquote {
+    font-size: 17px;
+    color: #666;
+}
+
+
+.footnotes {
+    margin-top: 3em;
+    font-size: 14px;
+    border-top: 2px solid #666;
+}
+
+.footnotes > ol {
+    margin-top: 2em;
+}
+
+.footnotes > ol > li > p {
+    margin-bottom: 0.5em;
+}
+
+h1.error {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+p.error-explanation {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+sup {
+    font-weight: bold;
+}
