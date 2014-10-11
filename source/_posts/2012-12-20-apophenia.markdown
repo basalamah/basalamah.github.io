@@ -3,7 +3,7 @@ layout: post
 title: الاستسقاط
 date: 2012-12-20 14:11
 comments: false
-categories: 
+categories:
 published: true
 ---
 
@@ -15,11 +15,6 @@ published: true
 
 الاستسقاط البصري ([الباريدوليا](http://ar.wikipedia.org/wiki/الباريدوليا)، لكن أفضل مصطلح الاستسقاط البصري) هو رؤية أشكال وهمية في الأشياء، مثل الوجوه في السحب أو على رؤوس الجبال. في الواقع، لا نحتاج إلى الكثير لرؤية الوجوه، نقطتان و خط منحني تحتهما يجعلنا نرى وجهاً مبتسماً. يساعدنا الاستسقاط البصري على التعرف من بعد على أهلنا، وأصدقائنا، وأعدائنا في أسوء البيئات رؤيةً. هذه بعض الصور التي توضح الاستسقاط البصري[^1]:
 
-[{% img http://photojournal.jpl.nasa.gov/jpegMod/PIA01141_modest.jpg 600 300 %}](http://photojournal.jpl.nasa.gov/catalog/PIA01141)
-
-[{% img http://farm5.staticflickr.com/4068/4681816734_615888029b_z.jpg 600 300 %}](http://www.flickr.com/photos/errantfool/4681816734/sizes/z/)
-
-[{% img http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Apache_head_in_rocks%2C_Ebihens%2C_France.jpg/640px-Apache_head_in_rocks%2C_Ebihens%2C_France.jpg 600 300 %}](http://en.wikipedia.org/wiki/File:Apache_head_in_rocks,_Ebihens,_France.jpg)
 
 
 لكن عند استخدام الاستسقاط كإثبات لشيء ما، أو كونه معجزات إلهية، عندها يجب أن نقف ضد هذه الاستخدامات، مثلاً:
@@ -32,4 +27,4 @@ published: true
 
 
 
-[^1]: انقر على الصورة للذهاب للمصدر. تجد المزيد من الصور [هنا](http://en.wikipedia.org/wiki/Pareidolia)، و[هنا](http://discovermagazine.com/tags?tag=Pareidolia#.UNM9AKUmUw4)، و[هنا](http://www.skepdic.com/pareidol.html). 
+[^1]: انقر على الصورة للذهاب للمصدر. تجد المزيد من الصور [هنا](http://en.wikipedia.org/wiki/Pareidolia)، و[هنا](http://discovermagazine.com/tags?tag=Pareidolia#.UNM9AKUmUw4)، و[هنا](http://www.skepdic.com/pareidol.html).
